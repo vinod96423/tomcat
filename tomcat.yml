@@ -1,4 +1,4 @@
-- hosts: 172.31.10.70
+- hosts: 172.31.7.237
   become: true
   tasks:
     - name: Install Java
