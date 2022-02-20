@@ -1,9 +1,9 @@
 - hosts: localhost
   become: true
   vars:
-    - tomcat-url: https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.58/bin/apache-tomcat-9.0.58.tar.gz
-    - tomcat-package: apache-tomcat-9.0.58.tar.gz
-    - java-version: java-1.8.0-openjdk
+   - tomcat-url: https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.58/bin/apache-tomcat-9.0.58.tar.gz
+   - tomcat-package: apache-tomcat-9.0.58.tar.gz
+   - java-version: java-1.8.0-openjdk
   tasks:
     - name: Install Java
       yum:
